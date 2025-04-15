@@ -1,0 +1,46 @@
+{
+  "scenario_1": [
+    {
+      "line": "L1-2",
+      "scenario": "90",
+      "main": {
+        "relay": "R38",
+        "line": "L1-2",
+        "Ishc": 0.98,
+        "Time_out": 0.2,
+        "Inom": 0.5
+      },
+      "backup": {
+        "relay": "R39",
+        "line": "L2-3",
+        "Ishc": 0.58,
+        "Time_out": 0.1,
+        "Inom": 0.5
+      }
+    },
+    {
+      "line": "L1-2",
+      "scenario": "90",
+      "main": {
+        "relay": "R38",
+        "line": "L1-2",
+        "pick_up": 0.17386,
+        "Ishc": 0.98,
+        "TDS": 0.05,
+        "Time_out": 0.2,
+        "Inom": 0.5
+      },
+      "backup": {
+        "relay": "R55",
+        "line": "L3-23",
+        "pick_up": 0.12595,
+        "Ishc": 0.58,
+        "TDS": 0.10935000000000003,
+        "Time_out": 0.1,
+        "Inom": 0.5
+      },
+      "delta_t": 0.03137111578546253,
+      "mt": -0.6
+    }
+  ]
+}
