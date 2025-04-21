@@ -1,0 +1,1090 @@
+[
+  {
+    "_id": {
+      "$oid": "343d9b0b-168c-4774-b47b-ef541671334d"
+    },
+    "scenario_id": "scenario_1",
+    "timestamp": "2025-04-20T05:08:15.032Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 10.26
+  },
+  {
+    "_id": {
+      "$oid": "5b62a863-aac8-4d7e-a16b-7e016664c824"
+    },
+    "scenario_id": "scenario_2",
+    "timestamp": "2025-04-20T05:08:15.194Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.155
+  },
+  {
+    "_id": {
+      "$oid": "e5f79e78-412f-47be-bfd0-d6a8563e4907"
+    },
+    "scenario_id": "scenario_3",
+    "timestamp": "2025-04-20T05:08:15.352Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.152
+  },
+  {
+    "_id": {
+      "$oid": "e32582fe-befd-4779-abaa-eb93254f60b7"
+    },
+    "scenario_id": "scenario_4",
+    "timestamp": "2025-04-20T05:08:20.555Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 5.195
+  },
+  {
+    "_id": {
+      "$oid": "1617e4c7-1dde-407f-b46c-4ff97277376b"
+    },
+    "scenario_id": "scenario_5",
+    "timestamp": "2025-04-20T05:08:20.860Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.299
+  },
+  {
+    "_id": {
+      "$oid": "04963e4e-cc76-45cf-b268-57d04d53f27a"
+    },
+    "scenario_id": "scenario_6",
+    "timestamp": "2025-04-20T05:08:21.020Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.151
+  },
+  {
+    "_id": {
+      "$oid": "9f96447a-173e-413f-aabd-80b1bb0d5353"
+    },
+    "scenario_id": "scenario_7",
+    "timestamp": "2025-04-20T05:08:21.176Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.15
+  },
+  {
+    "_id": {
+      "$oid": "efddfdb1-9847-4ae0-be6d-b45ac575c68f"
+    },
+    "scenario_id": "scenario_8",
+    "timestamp": "2025-04-20T05:08:21.338Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.155
+  },
+  {
+    "_id": {
+      "$oid": "b4dd57ff-9241-4bac-a938-4872a905aad7"
+    },
+    "scenario_id": "scenario_9",
+    "timestamp": "2025-04-20T05:08:21.569Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.224
+  },
+  {
+    "_id": {
+      "$oid": "a7b7744d-f09c-46f1-b839-c0f657d81a98"
+    },
+    "scenario_id": "scenario_10",
+    "timestamp": "2025-04-20T05:08:21.726Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.152
+  },
+  {
+    "_id": {
+      "$oid": "485e5ef2-954a-498c-af6a-1d7074b43d63"
+    },
+    "scenario_id": "scenario_11",
+    "timestamp": "2025-04-20T05:08:21.885Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.153
+  },
+  {
+    "_id": {
+      "$oid": "b2a0c88f-b2e2-4648-9f5c-780098192d71"
+    },
+    "scenario_id": "scenario_12",
+    "timestamp": "2025-04-20T05:08:22.106Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.215
+  },
+  {
+    "_id": {
+      "$oid": "6c357304-25de-4640-8b76-48a939612fbb"
+    },
+    "scenario_id": "scenario_13",
+    "timestamp": "2025-04-20T05:08:22.263Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.15
+  },
+  {
+    "_id": {
+      "$oid": "2afe7d80-8a20-4722-bd06-d18cb4a3130d"
+    },
+    "scenario_id": "scenario_14",
+    "timestamp": "2025-04-20T05:08:22.422Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.152
+  },
+  {
+    "_id": {
+      "$oid": "3b6083a5-b006-47f4-bb3a-fd846e1920e0"
+    },
+    "scenario_id": "scenario_15",
+    "timestamp": "2025-04-20T05:08:22.646Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.217
+  },
+  {
+    "_id": {
+      "$oid": "09655e53-d530-48bf-89b9-00041b261e2a"
+    },
+    "scenario_id": "scenario_16",
+    "timestamp": "2025-04-20T05:08:22.805Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.154
+  },
+  {
+    "_id": {
+      "$oid": "e467de32-ba80-4c5c-997a-08c4e0d563a0"
+    },
+    "scenario_id": "scenario_17",
+    "timestamp": "2025-04-20T05:08:22.964Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.152
+  },
+  {
+    "_id": {
+      "$oid": "e22c8895-2284-443d-9932-1d473adce511"
+    },
+    "scenario_id": "scenario_18",
+    "timestamp": "2025-04-20T05:08:23.197Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.227
+  },
+  {
+    "_id": {
+      "$oid": "160d9077-b01b-43cb-b7dc-de56b4e7d77d"
+    },
+    "scenario_id": "scenario_19",
+    "timestamp": "2025-04-20T05:08:23.355Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.151
+  },
+  {
+    "_id": {
+      "$oid": "afc3b1c0-c432-4710-8991-eff65e872e80"
+    },
+    "scenario_id": "scenario_20",
+    "timestamp": "2025-04-20T05:08:23.511Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.15
+  },
+  {
+    "_id": {
+      "$oid": "d4b71b15-1835-4508-aa48-63d2bd8863d3"
+    },
+    "scenario_id": "scenario_21",
+    "timestamp": "2025-04-20T05:08:38.163Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 14.643
+  },
+  {
+    "_id": {
+      "$oid": "53cc684b-1022-4ae3-9686-665188ea99b8"
+    },
+    "scenario_id": "scenario_22",
+    "timestamp": "2025-04-20T05:08:46.456Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 8.29
+  },
+  {
+    "_id": {
+      "$oid": "caba25b1-34dc-422c-ae12-17cbb68a6209"
+    },
+    "scenario_id": "scenario_23",
+    "timestamp": "2025-04-20T05:08:57.735Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 11.272
+  },
+  {
+    "_id": {
+      "$oid": "97596677-e344-4b5d-853b-d1ab371b970e"
+    },
+    "scenario_id": "scenario_24",
+    "timestamp": "2025-04-20T05:09:00.526Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 2.783
+  },
+  {
+    "_id": {
+      "$oid": "9028f6a7-8a4f-4c64-b0c0-08c87539a240"
+    },
+    "scenario_id": "scenario_25",
+    "timestamp": "2025-04-20T05:09:04.162Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 3.629
+  },
+  {
+    "_id": {
+      "$oid": "0302cece-a8e1-43fd-8113-ba3f0d9651db"
+    },
+    "scenario_id": "scenario_26",
+    "timestamp": "2025-04-20T05:09:07.821Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 3.655
+  },
+  {
+    "_id": {
+      "$oid": "119cae45-11a5-48ff-b94e-388f93a334ae"
+    },
+    "scenario_id": "scenario_27",
+    "timestamp": "2025-04-20T05:09:19.135Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 11.305
+  },
+  {
+    "_id": {
+      "$oid": "827c01e1-9936-436d-81fc-4cdf5ad6d5e2"
+    },
+    "scenario_id": "scenario_28",
+    "timestamp": "2025-04-20T05:09:32.320Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 13.177
+  },
+  {
+    "_id": {
+      "$oid": "cb7b1528-0060-4978-9964-e9e88809a752"
+    },
+    "scenario_id": "scenario_29",
+    "timestamp": "2025-04-20T05:09:47.933Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 15.604
+  },
+  {
+    "_id": {
+      "$oid": "0c5d00cc-9227-4e97-9a00-e89cce6d5ddd"
+    },
+    "scenario_id": "scenario_30",
+    "timestamp": "2025-04-20T05:09:56.540Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 8.604
+  },
+  {
+    "_id": {
+      "$oid": "a98c2391-3463-4e19-86c6-a4038bf20811"
+    },
+    "scenario_id": "scenario_31",
+    "timestamp": "2025-04-20T05:10:07.297Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 10.748
+  },
+  {
+    "_id": {
+      "$oid": "ab58443b-00ab-446f-9d78-91f91112965b"
+    },
+    "scenario_id": "scenario_32",
+    "timestamp": "2025-04-20T05:10:23.339Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 16.036
+  },
+  {
+    "_id": {
+      "$oid": "2bfb36c9-2557-4c0c-848b-e1dd742f1568"
+    },
+    "scenario_id": "scenario_33",
+    "timestamp": "2025-04-20T05:10:30.509Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 7.162
+  },
+  {
+    "_id": {
+      "$oid": "04a41ca3-51f4-4e6f-b6a0-dfb8258a0ef7"
+    },
+    "scenario_id": "scenario_34",
+    "timestamp": "2025-04-20T05:10:45.381Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 14.866
+  },
+  {
+    "_id": {
+      "$oid": "9aea7a55-12a9-4e47-9aea-c69d59ce158c"
+    },
+    "scenario_id": "scenario_35",
+    "timestamp": "2025-04-20T05:10:48.788Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 3.399
+  },
+  {
+    "_id": {
+      "$oid": "bb9497fc-0906-4c0b-9a5f-bf8efca834dc"
+    },
+    "scenario_id": "scenario_36",
+    "timestamp": "2025-04-20T05:10:55.904Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 7.111
+  },
+  {
+    "_id": {
+      "$oid": "7ad1354c-2180-42f6-860f-764965fd1bfe"
+    },
+    "scenario_id": "scenario_37",
+    "timestamp": "2025-04-20T05:10:56.206Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.294
+  },
+  {
+    "_id": {
+      "$oid": "4c894230-3f6d-45cb-927b-993be69bb842"
+    },
+    "scenario_id": "scenario_38",
+    "timestamp": "2025-04-20T05:10:56.372Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.161
+  },
+  {
+    "_id": {
+      "$oid": "d98d8b6e-5fcf-478c-89ae-7aa83a1e5649"
+    },
+    "scenario_id": "scenario_39",
+    "timestamp": "2025-04-20T05:10:56.531Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.152
+  },
+  {
+    "_id": {
+      "$oid": "3e6657c9-3fe9-4caf-b687-fb546840f60c"
+    },
+    "scenario_id": "scenario_40",
+    "timestamp": "2025-04-20T05:10:56.755Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.218
+  },
+  {
+    "_id": {
+      "$oid": "9e7d777e-1327-4ce6-a8ab-a9f767ba3115"
+    },
+    "scenario_id": "scenario_41",
+    "timestamp": "2025-04-20T05:10:56.914Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.152
+  },
+  {
+    "_id": {
+      "$oid": "ea50db31-eb5e-4969-a74a-8d8bc8c3f6bb"
+    },
+    "scenario_id": "scenario_42",
+    "timestamp": "2025-04-20T05:10:57.073Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.153
+  },
+  {
+    "_id": {
+      "$oid": "e11db5d6-fe2e-4f48-a54e-9fe81b25916f"
+    },
+    "scenario_id": "scenario_43",
+    "timestamp": "2025-04-20T05:10:57.313Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.234
+  },
+  {
+    "_id": {
+      "$oid": "d1df997f-5092-4922-b060-1becf2c8b58f"
+    },
+    "scenario_id": "scenario_44",
+    "timestamp": "2025-04-20T05:10:57.470Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.151
+  },
+  {
+    "_id": {
+      "$oid": "7a81da00-5058-44d1-a368-e136e8674313"
+    },
+    "scenario_id": "scenario_45",
+    "timestamp": "2025-04-20T05:10:57.627Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.15
+  },
+  {
+    "_id": {
+      "$oid": "b261608a-2e14-406d-bc1d-e1b622893072"
+    },
+    "scenario_id": "scenario_46",
+    "timestamp": "2025-04-20T05:10:57.847Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.214
+  },
+  {
+    "_id": {
+      "$oid": "ddeefb3e-d470-4efa-bd79-4af2b6270001"
+    },
+    "scenario_id": "scenario_47",
+    "timestamp": "2025-04-20T05:10:58.006Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.153
+  },
+  {
+    "_id": {
+      "$oid": "aa49f5e1-6724-4572-8957-6c92e48be500"
+    },
+    "scenario_id": "scenario_48",
+    "timestamp": "2025-04-20T05:10:58.180Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 97,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.168
+  },
+  {
+    "_id": {
+      "$oid": "b5fcfec8-d326-453f-880e-a77e73ffc6db"
+    },
+    "scenario_id": "scenario_49",
+    "timestamp": "2025-04-20T05:10:58.415Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.228
+  },
+  {
+    "_id": {
+      "$oid": "7c583baa-a37d-42f2-90b9-617f1a2f6c1d"
+    },
+    "scenario_id": "scenario_50",
+    "timestamp": "2025-04-20T05:10:58.576Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.154
+  },
+  {
+    "_id": {
+      "$oid": "da970d60-d4e5-442f-92e4-36391ec06d2f"
+    },
+    "scenario_id": "scenario_51",
+    "timestamp": "2025-04-20T05:10:58.734Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.152
+  },
+  {
+    "_id": {
+      "$oid": "784938e8-02d0-4d0e-b1c5-0198a3436ee8"
+    },
+    "scenario_id": "scenario_52",
+    "timestamp": "2025-04-20T05:10:58.965Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 98,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.224
+  },
+  {
+    "_id": {
+      "$oid": "83086431-c9a8-41b5-85d5-410d35091da8"
+    },
+    "scenario_id": "scenario_53",
+    "timestamp": "2025-04-20T05:11:04.896Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 5.925
+  },
+  {
+    "_id": {
+      "$oid": "64cbc461-0da4-4965-bc39-ef98b8c636d5"
+    },
+    "scenario_id": "scenario_54",
+    "timestamp": "2025-04-20T05:11:11.850Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 6.946
+  },
+  {
+    "_id": {
+      "$oid": "3923deee-f2b0-4e0d-89f9-a769d48f0e3f"
+    },
+    "scenario_id": "scenario_55",
+    "timestamp": "2025-04-20T05:11:13.238Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 1.384
+  },
+  {
+    "_id": {
+      "$oid": "557e4785-57f9-4447-9e82-acb45254bf47"
+    },
+    "scenario_id": "scenario_56",
+    "timestamp": "2025-04-20T05:11:17.867Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 4,
+    "optimization_success": false,
+    "optimization_message": "Inequality constraints incompatible",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 4.621
+  },
+  {
+    "_id": {
+      "$oid": "cd5511b6-c6f4-46e4-be18-ba4573126d17"
+    },
+    "scenario_id": "scenario_57",
+    "timestamp": "2025-04-20T05:11:19.405Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 1.534
+  },
+  {
+    "_id": {
+      "$oid": "a3bcf832-d411-4e17-9d47-ea1d9d29879b"
+    },
+    "scenario_id": "scenario_58",
+    "timestamp": "2025-04-20T05:11:20.354Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 0.942
+  },
+  {
+    "_id": {
+      "$oid": "bb41aff7-612f-4f8f-9366-83f2373b72b0"
+    },
+    "scenario_id": "scenario_59",
+    "timestamp": "2025-04-20T05:11:22.475Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 2.113
+  },
+  {
+    "_id": {
+      "$oid": "447efe32-2ad6-4e50-a796-3e2570d09a1a"
+    },
+    "scenario_id": "scenario_60",
+    "timestamp": "2025-04-20T05:11:29.384Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 6.896
+  },
+  {
+    "_id": {
+      "$oid": "3fc7a410-6591-4d57-981b-a144846c004a"
+    },
+    "scenario_id": "scenario_61",
+    "timestamp": "2025-04-20T05:11:30.499Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 1.11
+  },
+  {
+    "_id": {
+      "$oid": "69fd478e-b098-459c-a768-a744634b5082"
+    },
+    "scenario_id": "scenario_62",
+    "timestamp": "2025-04-20T05:11:42.657Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 12.149
+  },
+  {
+    "_id": {
+      "$oid": "09f5028c-2996-4806-89a6-1cef8943f743"
+    },
+    "scenario_id": "scenario_63",
+    "timestamp": "2025-04-20T05:11:44.798Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 4,
+    "optimization_success": false,
+    "optimization_message": "Inequality constraints incompatible",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 2.135
+  },
+  {
+    "_id": {
+      "$oid": "3a04552e-f3d2-4f01-86d7-a49b95c9dcbf"
+    },
+    "scenario_id": "scenario_64",
+    "timestamp": "2025-04-20T05:11:49.685Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 4.877
+  },
+  {
+    "_id": {
+      "$oid": "028d6ae8-bc65-4ad0-8315-407ac7bff2f9"
+    },
+    "scenario_id": "scenario_65",
+    "timestamp": "2025-04-20T05:11:50.935Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 1.244
+  },
+  {
+    "_id": {
+      "$oid": "b1f72d80-0b2e-4275-9acb-815363123c17"
+    },
+    "scenario_id": "scenario_66",
+    "timestamp": "2025-04-20T05:11:55.872Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 4.921
+  },
+  {
+    "_id": {
+      "$oid": "dba85104-cccc-4064-8e99-85f506946155"
+    },
+    "scenario_id": "scenario_67",
+    "timestamp": "2025-04-20T05:11:57.262Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 1.384
+  },
+  {
+    "_id": {
+      "$oid": "ba3bacfd-d5af-4889-ba1c-61432d6b3831"
+    },
+    "scenario_id": "scenario_68",
+    "timestamp": "2025-04-20T05:11:58.494Z",
+    "optimization_method": "SLSQP",
+    "pairs_evaluated": 100,
+    "relay_values": {},
+    "optimization_status": 8,
+    "optimization_success": false,
+    "optimization_message": "Positive directional derivative for linesearch",
+    "objective_function_value": null,
+    "optimization_iterations": null,
+    "optimization_time_seconds": 1.226
+  }
+]
