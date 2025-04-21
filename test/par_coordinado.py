@@ -42,11 +42,13 @@ def calcular_tiempo_operacion_iec(I, Is, TDS, k=0.14, alpha=0.02, L=0):
 
 # --- Figura TCC: Gráfico con Diferencia de Tiempo (sin línea CTI) ---
 # *** LA FUNCIÓN SE MANTIENE IGUAL, SOLO CAMBIAN LOS DATOS DE ENTRADA ***
+# *** YA USA 'P' PARA PICKUP EN LAS ETIQUETAS ***
 def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferencia.png'):
     """
     Genera un gráfico TCC completo (curvas, puntos op, Ishc) y muestra
     la diferencia de tiempo entre la curva de respaldo y el punto de
     operación principal en la Ishc principal. No muestra la línea CTI.
+    Las etiquetas usan 'P' para el pickup.
 
     Args:
         datos_par (dict): Diccionario con info completa del par.
@@ -61,7 +63,7 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
     relay_m = main['relay']
     line_m = main['line']
     tds_m = main['TDS']
-    pickup_m = main['pick_up']
+    pickup_m = main['pick_up'] # P (Pickup)
     ishc_m = main['Ishc']
     t_op_m = main['Time_out']
 
@@ -69,7 +71,7 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
     relay_b = backup['relay']
     line_b = backup['line']
     tds_b = backup['TDS']
-    pickup_b = backup['pick_up']
+    pickup_b = backup['pick_up'] # P (Pickup)
     ishc_b = backup['Ishc']
     t_op_b = backup['Time_out']
 
@@ -84,7 +86,7 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
       return
     corriente_min_graf = corriente_min_pickup * 1.01
     corriente_max_graf = max(ishc_m, ishc_b, pickup_m, pickup_b) * 10
-    corriente_max_graf = max(corriente_max_graf, ishc_m * 1.5) # Asegurar rango para Ishc_m grande
+    corriente_max_graf = max(corriente_max_graf, ishc_m * 1.5)
     corriente_min_graf = max(corriente_min_graf, 0.01)
     corrientes = np.logspace(np.log10(corriente_min_graf), np.log10(corriente_max_graf), 500)
 
@@ -94,7 +96,7 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
     # --- Creación del Gráfico ---
     fig, ax = plt.subplots(figsize=(10, 7))
 
-    # 1. Graficar curvas TCC
+    # 1. Graficar curvas TCC (Ya usan P=... en la etiqueta)
     label_curva_m = f'Curva {relay_m} (Main, TDS={tds_m:.3f}, P={pickup_m:.3f}A)'
     label_curva_b = f'Curva {relay_b} (Backup, TDS={tds_b:.3f}, P={pickup_b:.3f}A)'
     ax.plot(corrientes, tiempos_m, label=label_curva_m, color='blue', linewidth=1.5)
@@ -177,7 +179,9 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
         y_min = min_t * 0.5
         y_max = max_t * 2.0
         y_min = max(y_min, 0.01)
-        y_max = min(y_max, 1000)
+        y_max = min(y_max, 1000) # Permitir tiempos más altos si Time_out=2.185s lo requiere
+        # Asegurar que y_max incluya el t_op_b si es el más alto
+        y_max = max(y_max, t_op_b * 1.2) if np.isfinite(t_op_b) else y_max
         ax.set_ylim(y_min, y_max)
     else:
         ax.set_ylim(0.01, 100)
@@ -205,24 +209,24 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
 
 
 # === DEFINICIÓN DE DATOS NUEVOS ===
-datos_par_R2_R55_v2 = { # Renombrado para diferenciar de la versión anterior de R2/R55
+datos_par_R38_R55 = { # Nuevo par R38 / R55
     "scenario_id": "scenario_1",
-    "fault": "10", # %
+    "fault": "90", # %
     "main_relay": {
-      "relay": "R2",
-      "pick_up": 0.12595,
-      "Ishc": 9.81,
-      "TDS": 0.15662,
-      "Time_out": 0.2409,
-      "line": "L2-3"
+      "relay": "R38",
+      "pick_up": 0.17386, # P
+      "Ishc": 0.98,
+      "TDS": 0.05,
+      "Time_out": 0.1989,
+      "line": "L1-2"
     },
     "backup_relay": {
       "relay": "R55",
       "line": "L2-19",
-      "pick_up": 0.05198,
-      "Ishc": 0.32,
-      "TDS": 0.11869,
-      "Time_out": 0.4489
+      "pick_up": 0.05198, # P
+      "Ishc": 0.4,
+      "TDS": 0.65013, # TDS alto para el respaldo
+      "Time_out": 2.185 # Tiempo de operación alto para el respaldo
     }
 }
 
@@ -230,11 +234,11 @@ datos_par_R2_R55_v2 = { # Renombrado para diferenciar de la versión anterior de
 # === EJECUCIÓN PRINCIPAL ===
 # Solo se genera la figura TCC solicitada con los nuevos datos
 if __name__ == "__main__":
-    print("=== Generando gráfico TCC específico con diferencia de tiempo (R2/R55 v2) ===")
+    print("=== Generando gráfico TCC específico con diferencia de tiempo (R38/R55) ===")
 
-    # --- Generar Figura TCC para R2/R55 (Nuevos Datos v2) con Diferencia ---
-    nombre_archivo_tcc_diff = f'fig_tcc_{datos_par_R2_R55_v2["main_relay"]["relay"]}_{datos_par_R2_R55_v2["backup_relay"]["relay"]}_f{datos_par_R2_R55_v2["fault"]}_v2_diff.png'
-    graficar_tcc_con_diferencia(datos_par=datos_par_R2_R55_v2,
+    # --- Generar Figura TCC para R38/R55 con Diferencia ---
+    nombre_archivo_tcc_diff = f'fig_tcc_{datos_par_R38_R55["main_relay"]["relay"]}_{datos_par_R38_R55["backup_relay"]["relay"]}_f{datos_par_R38_R55["fault"]}_diff.png'
+    graficar_tcc_con_diferencia(datos_par=datos_par_R38_R55,
                                 archivo_salida=nombre_archivo_tcc_diff)
 
     print("\n=== ¡Gráfico TCC con diferencia de tiempo generado exitosamente! ===")
