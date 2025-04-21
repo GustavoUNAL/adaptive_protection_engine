@@ -1,0 +1,497 @@
+[
+  {
+    "scenario_id": "scenario_4",
+    "coordinated_pairs": 89,
+    "uncoordinated_pairs": 11,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 89.0,
+    "tmt": -0.5175054460423663,
+    "worst_mt": -0.14892942657029834,
+    "total_main_time": 189.31537645649573,
+    "worst_pairs": [
+      {
+        "main_relay": "R3",
+        "backup_relay": "R2",
+        "I_shc_main": 6.3,
+        "I_shc_backup": 6.04,
+        "main_time": 2.1137388577533645,
+        "backup_time": 2.164809431183066,
+        "delta_t": 0.05107057342970167,
+        "mt": -0.14892942657029834,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R10",
+        "backup_relay": "R9",
+        "I_shc_main": 1.7,
+        "I_shc_backup": 1.7,
+        "main_time": 2.1730993513173775,
+        "backup_time": 2.2735862194012637,
+        "delta_t": 0.10048686808388618,
+        "mt": -0.09951313191611383,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R13",
+        "backup_relay": "R12",
+        "I_shc_main": 1.19,
+        "I_shc_backup": 1.19,
+        "main_time": 2.28407199305002,
+        "backup_time": 2.405834147852835,
+        "delta_t": 0.12176215480281494,
+        "mt": -0.07823784519718507,
+        "status": "Descoordinado"
+      }
+    ]
+  },
+  {
+    "scenario_id": "scenario_28",
+    "coordinated_pairs": 88,
+    "uncoordinated_pairs": 12,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 88.0,
+    "tmt": -0.5595501899255417,
+    "worst_mt": -0.14942114170668203,
+    "total_main_time": 193.54450716178042,
+    "worst_pairs": [
+      {
+        "main_relay": "R19",
+        "backup_relay": "R18",
+        "I_shc_main": 6.6,
+        "I_shc_backup": 6.61,
+        "main_time": 1.483869650182127,
+        "backup_time": 1.534448508475445,
+        "delta_t": 0.050578858293317985,
+        "mt": -0.14942114170668203,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R7",
+        "backup_relay": "R6",
+        "I_shc_main": 2.08,
+        "I_shc_backup": 2.08,
+        "main_time": 1.960465788233053,
+        "backup_time": 2.0785121438705665,
+        "delta_t": 0.11804635563751353,
+        "mt": -0.08195364436248648,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R44",
+        "backup_relay": "R70",
+        "I_shc_main": 2.18,
+        "I_shc_backup": 0.88,
+        "main_time": 2.241626150693781,
+        "backup_time": 2.3714804232046576,
+        "delta_t": 0.12985427251087645,
+        "mt": -0.07014572748912357,
+        "status": "Descoordinado"
+      }
+    ]
+  },
+  {
+    "scenario_id": "scenario_29",
+    "coordinated_pairs": 87,
+    "uncoordinated_pairs": 13,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 87.0,
+    "tmt": -0.6062320037133007,
+    "worst_mt": -0.14123549584776735,
+    "total_main_time": 191.3573194364002,
+    "worst_pairs": [
+      {
+        "main_relay": "R11",
+        "backup_relay": "R10",
+        "I_shc_main": 1.59,
+        "I_shc_backup": 1.59,
+        "main_time": 1.9542406493547777,
+        "backup_time": 2.0130051535070104,
+        "delta_t": 0.058764504152232666,
+        "mt": -0.14123549584776735,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R12",
+        "backup_relay": "R11",
+        "I_shc_main": 2.12,
+        "I_shc_backup": 1.29,
+        "main_time": 1.9862649897770897,
+        "backup_time": 2.0843563657437287,
+        "delta_t": 0.09809137596663908,
+        "mt": -0.10190862403336093,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R10",
+        "backup_relay": "R9",
+        "I_shc_main": 1.73,
+        "I_shc_backup": 1.73,
+        "main_time": 1.962037065174467,
+        "backup_time": 2.0631777114221252,
+        "delta_t": 0.10114064624765828,
+        "mt": -0.09885935375234173,
+        "status": "Descoordinado"
+      }
+    ]
+  },
+  {
+    "scenario_id": "scenario_30",
+    "coordinated_pairs": 91,
+    "uncoordinated_pairs": 9,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 91.0,
+    "tmt": -0.32292240722793847,
+    "worst_mt": -0.09199205829047258,
+    "total_main_time": 193.58899840598568,
+    "worst_pairs": [
+      {
+        "main_relay": "R19",
+        "backup_relay": "R18",
+        "I_shc_main": 6.61,
+        "I_shc_backup": 6.61,
+        "main_time": 1.549248316789372,
+        "backup_time": 1.6572562584988995,
+        "delta_t": 0.10800794170952743,
+        "mt": -0.09199205829047258,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R7",
+        "backup_relay": "R6",
+        "I_shc_main": 2.06,
+        "I_shc_backup": 2.07,
+        "main_time": 1.8941225425845996,
+        "backup_time": 2.0309894934294475,
+        "delta_t": 0.1368669508448479,
+        "mt": -0.06313304915515211,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R3",
+        "backup_relay": "R2",
+        "I_shc_main": 6.26,
+        "I_shc_backup": 6.0,
+        "main_time": 2.0569272867661375,
+        "backup_time": 2.205667560821876,
+        "delta_t": 0.14874027405573864,
+        "mt": -0.05125972594426137,
+        "status": "Descoordinado"
+      }
+    ]
+  },
+  {
+    "scenario_id": "scenario_31",
+    "coordinated_pairs": 88,
+    "uncoordinated_pairs": 12,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 88.0,
+    "tmt": -0.5644976355951061,
+    "worst_mt": -0.10156100576688348,
+    "total_main_time": 189.30071628471526,
+    "worst_pairs": [
+      {
+        "main_relay": "R10",
+        "backup_relay": "R9",
+        "I_shc_main": 1.73,
+        "I_shc_backup": 1.73,
+        "main_time": 2.0520034179918976,
+        "backup_time": 2.150442412225014,
+        "delta_t": 0.09843899423311653,
+        "mt": -0.10156100576688348,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R13",
+        "backup_relay": "R12",
+        "I_shc_main": 1.2,
+        "I_shc_backup": 1.2,
+        "main_time": 2.16767808205377,
+        "backup_time": 2.2774715754801558,
+        "delta_t": 0.10979349342638578,
+        "mt": -0.09020650657361423,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R16",
+        "backup_relay": "R15",
+        "I_shc_main": 1.43,
+        "I_shc_backup": 1.43,
+        "main_time": 2.3497346990514485,
+        "backup_time": 2.4595876545005435,
+        "delta_t": 0.10985295544909501,
+        "mt": -0.090147044550905,
+        "status": "Descoordinado"
+      }
+    ]
+  },
+  {
+    "scenario_id": "scenario_32",
+    "coordinated_pairs": 86,
+    "uncoordinated_pairs": 14,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 86.0,
+    "tmt": -0.5859879800087007,
+    "worst_mt": -0.14756749362883564,
+    "total_main_time": 196.47004772351926,
+    "worst_pairs": [
+      {
+        "main_relay": "R19",
+        "backup_relay": "R18",
+        "I_shc_main": 6.61,
+        "I_shc_backup": 6.61,
+        "main_time": 1.4886697249114151,
+        "backup_time": 1.5411022312825795,
+        "delta_t": 0.05243250637116437,
+        "mt": -0.14756749362883564,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R10",
+        "backup_relay": "R9",
+        "I_shc_main": 1.73,
+        "I_shc_backup": 1.73,
+        "main_time": 2.2212813445998316,
+        "backup_time": 2.3105961120597183,
+        "delta_t": 0.08931476745988665,
+        "mt": -0.11068523254011337,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R20",
+        "backup_relay": "R19",
+        "I_shc_main": 2.34,
+        "I_shc_backup": 2.34,
+        "main_time": 1.848320899236336,
+        "backup_time": 1.9565040029018903,
+        "delta_t": 0.10818310366555428,
+        "mt": -0.09181689633444573,
+        "status": "Descoordinado"
+      }
+    ]
+  },
+  {
+    "scenario_id": "scenario_53",
+    "coordinated_pairs": 89,
+    "uncoordinated_pairs": 11,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 89.0,
+    "tmt": -0.5389745851057761,
+    "worst_mt": -0.11760238721209776,
+    "total_main_time": 193.7365337954111,
+    "worst_pairs": [
+      {
+        "main_relay": "R4",
+        "backup_relay": "R3",
+        "I_shc_main": 4.54,
+        "I_shc_backup": 4.54,
+        "main_time": 1.9980435980936828,
+        "backup_time": 2.080441210881585,
+        "delta_t": 0.08239761278790225,
+        "mt": -0.11760238721209776,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R19",
+        "backup_relay": "R18",
+        "I_shc_main": 6.64,
+        "I_shc_backup": 6.64,
+        "main_time": 1.5162936671485088,
+        "backup_time": 1.602329544194726,
+        "delta_t": 0.08603587704621729,
+        "mt": -0.11396412295378272,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R2",
+        "backup_relay": "R1",
+        "I_shc_main": 9.88,
+        "I_shc_backup": 9.56,
+        "main_time": 1.8967778270930828,
+        "backup_time": 2.006334547676964,
+        "delta_t": 0.10955672058388122,
+        "mt": -0.0904432794161188,
+        "status": "Descoordinado"
+      }
+    ]
+  },
+  {
+    "scenario_id": "scenario_57",
+    "coordinated_pairs": 91,
+    "uncoordinated_pairs": 9,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 91.0,
+    "tmt": -0.6832786986477164,
+    "worst_mt": -0.1280502852741961,
+    "total_main_time": 182.38572668270245,
+    "worst_pairs": [
+      {
+        "main_relay": "R4",
+        "backup_relay": "R3",
+        "I_shc_main": 4.54,
+        "I_shc_backup": 4.54,
+        "main_time": 1.9506021944526943,
+        "backup_time": 2.0225519091784983,
+        "delta_t": 0.07194971472580391,
+        "mt": -0.1280502852741961,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R44",
+        "backup_relay": "R70",
+        "I_shc_main": 2.21,
+        "I_shc_backup": 0.89,
+        "main_time": 2.267526077813184,
+        "backup_time": 2.3619039759965967,
+        "delta_t": 0.09437789818341269,
+        "mt": -0.10562210181658732,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R22",
+        "backup_relay": "R2",
+        "I_shc_main": 6.6,
+        "I_shc_backup": 5.95,
+        "main_time": 1.8871862074538466,
+        "backup_time": 1.9923243801789285,
+        "delta_t": 0.10513817272508197,
+        "mt": -0.09486182727491804,
+        "status": "Descoordinado"
+      }
+    ]
+  },
+  {
+    "scenario_id": "scenario_58",
+    "coordinated_pairs": 91,
+    "uncoordinated_pairs": 9,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 91.0,
+    "tmt": -0.359417982790925,
+    "worst_mt": -0.09505047948802209,
+    "total_main_time": 196.23314471302248,
+    "worst_pairs": [
+      {
+        "main_relay": "R10",
+        "backup_relay": "R9",
+        "I_shc_main": 1.71,
+        "I_shc_backup": 1.71,
+        "main_time": 2.371429023831118,
+        "backup_time": 2.476378544343096,
+        "delta_t": 0.10494952051197792,
+        "mt": -0.09505047948802209,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R44",
+        "backup_relay": "R70",
+        "I_shc_main": 2.2,
+        "I_shc_backup": 0.89,
+        "main_time": 2.4491234746039416,
+        "backup_time": 2.5778359563997015,
+        "delta_t": 0.1287124817957599,
+        "mt": -0.07128751820424012,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R19",
+        "backup_relay": "R18",
+        "I_shc_main": 6.64,
+        "I_shc_backup": 6.64,
+        "main_time": 1.5276819839811597,
+        "backup_time": 1.6677977680968696,
+        "delta_t": 0.1401157841157099,
+        "mt": -0.059884215884290104,
+        "status": "Descoordinado"
+      }
+    ]
+  },
+  {
+    "scenario_id": "scenario_61",
+    "coordinated_pairs": 87,
+    "uncoordinated_pairs": 13,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 87.0,
+    "tmt": -0.5916562357504502,
+    "worst_mt": -0.12658978593180398,
+    "total_main_time": 184.28420219991392,
+    "worst_pairs": [
+      {
+        "main_relay": "R10",
+        "backup_relay": "R9",
+        "I_shc_main": 1.72,
+        "I_shc_backup": 1.72,
+        "main_time": 2.1895899429000383,
+        "backup_time": 2.2630001569682343,
+        "delta_t": 0.07341021406819603,
+        "mt": -0.12658978593180398,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R19",
+        "backup_relay": "R18",
+        "I_shc_main": 6.64,
+        "I_shc_backup": 6.64,
+        "main_time": 1.4989473510214673,
+        "backup_time": 1.5792576907473725,
+        "delta_t": 0.08031033972590529,
+        "mt": -0.11968966027409472,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R15",
+        "backup_relay": "R34",
+        "I_shc_main": 1.88,
+        "I_shc_backup": 1.09,
+        "main_time": 2.3068474373063266,
+        "backup_time": 2.397167853028986,
+        "delta_t": 0.09032041572265959,
+        "mt": -0.10967958427734043,
+        "status": "Descoordinado"
+      }
+    ]
+  },
+  {
+    "scenario_id": "scenario_62",
+    "coordinated_pairs": 91,
+    "uncoordinated_pairs": 9,
+    "total_valid_pairs": 100,
+    "coordination_percentage": 91.0,
+    "tmt": -0.40890151300070304,
+    "worst_mt": -0.1479523437333204,
+    "total_main_time": 184.07407827002046,
+    "worst_pairs": [
+      {
+        "main_relay": "R3",
+        "backup_relay": "R2",
+        "I_shc_main": 6.31,
+        "I_shc_backup": 6.04,
+        "main_time": 1.954247505939935,
+        "backup_time": 2.0062951622066145,
+        "delta_t": 0.05204765626667962,
+        "mt": -0.1479523437333204,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R19",
+        "backup_relay": "R18",
+        "I_shc_main": 6.65,
+        "I_shc_backup": 6.65,
+        "main_time": 1.5067771344473975,
+        "backup_time": 1.5983597518657162,
+        "delta_t": 0.09158261741831875,
+        "mt": -0.10841738258168127,
+        "status": "Descoordinado"
+      },
+      {
+        "main_relay": "R4",
+        "backup_relay": "R3",
+        "I_shc_main": 4.55,
+        "I_shc_backup": 4.55,
+        "main_time": 2.0147922831093976,
+        "backup_time": 2.1654061657459494,
+        "delta_t": 0.15061388263655173,
+        "mt": -0.04938611736344828,
+        "status": "Descoordinado"
+      }
+    ]
+  }
+]
