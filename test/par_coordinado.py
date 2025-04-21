@@ -28,7 +28,9 @@ def calcular_tiempo_operacion_iec(I, Is, TDS, k=0.14, alpha=0.02, L=0):
         calc_mask = (ratio > 1)
         if np.any(calc_mask):
             denominador = np.power(ratio[calc_mask], alpha) - 1
+            # Evitar división por cero o valores muy pequeños que causen overflow en 1/denominador
             denominador_safe = np.where(denominador < 1e-9, 1e-9, denominador)
+            # Calcular tiempo solo para la máscara válida
             tiempo[calc_mask] = TDS * ((k / denominador_safe) + L)
         return tiempo
     else: # Si I es un escalar
@@ -37,7 +39,7 @@ def calcular_tiempo_operacion_iec(I, Is, TDS, k=0.14, alpha=0.02, L=0):
         ratio = I / Is
         denominador = ratio**alpha - 1
         if denominador < 1e-9:
-            return np.inf
+            return np.inf # O un valor muy grande si se prefiere indicar operación casi instantánea
         return TDS * ((k / denominador) + L)
 
 # --- Figura TCC: Gráfico con Diferencia de Tiempo (sin línea CTI) ---
@@ -88,7 +90,8 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
     corriente_max_graf = max(ishc_m, ishc_b, pickup_m, pickup_b) * 10
     corriente_max_graf = max(corriente_max_graf, ishc_m * 1.5)
     corriente_min_graf = max(corriente_min_graf, 0.01)
-    corrientes = np.logspace(np.log10(corriente_min_graf), np.log10(corriente_max_graf), 500)
+    # Aumentar número de puntos si las curvas son muy pronunciadas
+    corrientes = np.logspace(np.log10(corriente_min_graf), np.log10(corriente_max_graf), 600)
 
     tiempos_m = calcular_tiempo_operacion_iec(corrientes, pickup_m, tds_m)
     tiempos_b = calcular_tiempo_operacion_iec(corrientes, pickup_b, tds_b)
@@ -96,7 +99,7 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
     # --- Creación del Gráfico ---
     fig, ax = plt.subplots(figsize=(10, 7))
 
-    # 1. Graficar curvas TCC (Ya usan P=... en la etiqueta)
+    # 1. Graficar curvas TCC
     label_curva_m = f'Curva {relay_m} (Main, TDS={tds_m:.3f}, P={pickup_m:.3f}A)'
     label_curva_b = f'Curva {relay_b} (Backup, TDS={tds_b:.3f}, P={pickup_b:.3f}A)'
     ax.plot(corrientes, tiempos_m, label=label_curva_m, color='blue', linewidth=1.5)
@@ -131,9 +134,11 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
             text_x = ishc_m * 1.05
             text_y = (t_op_m + t_b_at_ishc_m) / 2
             if ax.get_yscale() == 'log':
+                 # Evitar log(0) o log(negativo)
                  log_y_m = np.log10(t_op_m) if t_op_m > 0 else -np.inf
                  log_y_b = np.log10(t_b_at_ishc_m) if t_b_at_ishc_m > 0 else -np.inf
-                 if abs(log_y_b - log_y_m) < 0.1:
+                 # Solo ajustar si ambos son finitos y positivos
+                 if np.isfinite(log_y_m) and np.isfinite(log_y_b) and abs(log_y_b - log_y_m) < 0.1:
                      factor_despl = 1.5 if t_b_at_ishc_m > t_op_m else 0.66
                      text_y = t_op_m * factor_despl
 
@@ -170,18 +175,22 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
 
     if corrientes_visibles:
         min_c, max_c = min(corrientes_visibles), max(corrientes_visibles)
-        ax.set_xlim(min_c * 0.8, max_c * 1.5)
+        # Añadir un poco más de margen si los valores son muy bajos
+        margen_inf_c = 0.8 if min_c > 0.1 else 0.5
+        margen_sup_c = 1.5 if max_c < 100 else 1.2
+        ax.set_xlim(min_c * margen_inf_c, max_c * margen_sup_c)
     else:
         ax.set_xlim(0.01, 100)
 
     if tiempos_visibles:
         min_t, max_t = min(tiempos_visibles), max(tiempos_visibles)
-        y_min = min_t * 0.5
-        y_max = max_t * 2.0
+        # Ajustar márgenes basados en el rango de tiempos
+        margen_inf_t = 0.5 if min_t > 0.05 else 0.8
+        margen_sup_t = 2.0 if max_t < 10 else 1.5
+        y_min = min_t * margen_inf_t
+        y_max = max_t * margen_sup_t
         y_min = max(y_min, 0.01)
-        y_max = min(y_max, 1000) # Permitir tiempos más altos si Time_out=2.185s lo requiere
-        # Asegurar que y_max incluya el t_op_b si es el más alto
-        y_max = max(y_max, t_op_b * 1.2) if np.isfinite(t_op_b) else y_max
+        y_max = min(y_max, 1000)
         ax.set_ylim(y_min, y_max)
     else:
         ax.set_ylim(0.01, 100)
@@ -209,24 +218,24 @@ def graficar_tcc_con_diferencia(datos_par, archivo_salida='fig_tcc_con_diferenci
 
 
 # === DEFINICIÓN DE DATOS NUEVOS ===
-datos_par_R38_R55 = { # Nuevo par R38 / R55
+datos_par_R6_R62 = { # Nuevo par R6 / R62
     "scenario_id": "scenario_1",
-    "fault": "90", # %
+    "fault": "10", # %
     "main_relay": {
-      "relay": "R38",
-      "pick_up": 0.17386, # P
-      "Ishc": 0.98,
+      "relay": "R6",
+      "pick_up": 0.06334, # P
+      "Ishc": 2.64,
       "TDS": 0.05,
-      "Time_out": 0.1989,
-      "line": "L1-2"
+      "Time_out": 0.0904, # Tiempo principal muy bajo
+      "line": "L6-7"
     },
     "backup_relay": {
-      "relay": "R55",
-      "line": "L2-19",
-      "pick_up": 0.05198, # P
-      "Ishc": 0.4,
-      "TDS": 0.65013, # TDS alto para el respaldo
-      "Time_out": 2.185 # Tiempo de operación alto para el respaldo
+      "relay": "R62",
+      "line": "L6-26",
+      "pick_up": 0.0485, # P
+      "Ishc": 0.62,
+      "TDS": 0.10844,
+      "Time_out": 0.2904
     }
 }
 
@@ -234,11 +243,11 @@ datos_par_R38_R55 = { # Nuevo par R38 / R55
 # === EJECUCIÓN PRINCIPAL ===
 # Solo se genera la figura TCC solicitada con los nuevos datos
 if __name__ == "__main__":
-    print("=== Generando gráfico TCC específico con diferencia de tiempo (R38/R55) ===")
+    print("=== Generando gráfico TCC específico con diferencia de tiempo (R6/R62) ===")
 
-    # --- Generar Figura TCC para R38/R55 con Diferencia ---
-    nombre_archivo_tcc_diff = f'fig_tcc_{datos_par_R38_R55["main_relay"]["relay"]}_{datos_par_R38_R55["backup_relay"]["relay"]}_f{datos_par_R38_R55["fault"]}_diff.png'
-    graficar_tcc_con_diferencia(datos_par=datos_par_R38_R55,
+    # --- Generar Figura TCC para R6/R62 con Diferencia ---
+    nombre_archivo_tcc_diff = f'fig_tcc_{datos_par_R6_R62["main_relay"]["relay"]}_{datos_par_R6_R62["backup_relay"]["relay"]}_f{datos_par_R6_R62["fault"]}_diff.png'
+    graficar_tcc_con_diferencia(datos_par=datos_par_R6_R62,
                                 archivo_salida=nombre_archivo_tcc_diff)
 
     print("\n=== ¡Gráfico TCC con diferencia de tiempo generado exitosamente! ===")
