@@ -1,0 +1,273 @@
+Metodo,Escenario,TMT,Pares Coordinados,Pares Descoordinados,Total Pares Válidos,Porcentaje Coordinación,Scenario_Num
+Automation,scenario_1,-15.85430,12,88,100,12.00000,1
+Optimization 1,scenario_1,-0.73930,87,13,100,87.00000,1
+Optimization 2,scenario_1,-0.73930,87,13,100,87.00000,1
+Transformer,scenario_1,-1.02140,84,16,100,84.00000,1
+Automation,scenario_2,-18.96240,12,88,100,12.00000,2
+Optimization 1,scenario_2,-17.02310,90,10,100,90.00000,2
+Optimization 2,scenario_2,-2.91259,94,6,100,94.00000,2
+Transformer,scenario_2,-2.58520,94,6,100,94.00000,2
+Automation,scenario_3,-17.82150,13,87,100,13.00000,3
+Optimization 1,scenario_3,-17.73160,91,9,100,91.00000,3
+Optimization 2,scenario_3,-2.37190,95,5,100,95.00000,3
+Transformer,scenario_3,-1.82310,89,11,100,89.00000,3
+Automation,scenario_4,-15.23050,13,87,100,13.00000,4
+Optimization 1,scenario_4,-0.51750,89,11,100,89.00000,4
+Optimization 2,scenario_4,-0.51750,89,11,100,89.00000,4
+Transformer,scenario_4,-0.59560,85,15,100,85.00000,4
+Automation,scenario_5,-24.94750,13,87,100,13.00000,5
+Optimization 1,scenario_5,-16.65510,91,9,100,91.00000,5
+Optimization 2,scenario_5,-1.80198,97,3,100,97.00000,5
+Transformer,scenario_5,-0.95990,96,4,100,96.00000,5
+Automation,scenario_6,-20.97470,13,87,100,13.00000,6
+Optimization 1,scenario_6,-16.73160,91,9,100,91.00000,6
+Optimization 2,scenario_6,-2.46793,97,3,100,97.00000,6
+Transformer,scenario_6,-2.49100,94,6,100,94.00000,6
+Automation,scenario_7,-17.78630,14,86,100,14.00000,7
+Optimization 1,scenario_7,-17.08800,91,9,100,91.00000,7
+Optimization 2,scenario_7,-2.38213,95,5,100,95.00000,7
+Transformer,scenario_7,-2.58220,89,11,100,89.00000,7
+Automation,scenario_8,-19.00270,12,88,100,12.00000,8
+Optimization 1,scenario_8,-16.92290,91,9,100,91.00000,8
+Optimization 2,scenario_8,-2.85357,96,4,100,96.00000,8
+Transformer,scenario_8,-2.95240,93,7,100,93.00000,8
+Automation,scenario_9,-20.14720,14,86,100,14.00000,9
+Optimization 1,scenario_9,-15.84750,89,11,100,89.00000,9
+Optimization 2,scenario_9,-1.46529,95,5,100,95.00000,9
+Transformer,scenario_9,-1.63530,88,12,100,88.00000,9
+Automation,scenario_10,-19.22740,14,86,100,14.00000,10
+Optimization 1,scenario_10,-18.51000,87,13,100,87.00000,10
+Optimization 2,scenario_10,-4.84411,90,10,100,90.00000,10
+Transformer,scenario_10,-4.60090,81,19,100,81.00000,10
+Automation,scenario_11,-17.81270,12,88,100,12.00000,11
+Optimization 1,scenario_11,-17.35610,91,9,100,91.00000,11
+Optimization 2,scenario_11,-0.90627,96,4,100,96.00000,11
+Transformer,scenario_11,-1.10910,87,13,100,87.00000,11
+Automation,scenario_12,-18.11710,11,89,100,11.00000,12
+Optimization 1,scenario_12,-17.10330,91,9,100,91.00000,12
+Optimization 2,scenario_12,-2.75240,95,5,100,95.00000,12
+Transformer,scenario_12,-3.44320,88,12,100,88.00000,12
+Automation,scenario_13,-18.44970,13,87,100,13.00000,13
+Optimization 1,scenario_13,-15.79160,90,10,100,90.00000,13
+Optimization 2,scenario_13,-0.44304,96,4,100,96.00000,13
+Transformer,scenario_13,-1.64200,86,14,100,86.00000,13
+Automation,scenario_14,-45.68150,14,86,100,14.00000,14
+Optimization 1,scenario_14,-15.79740,91,9,100,91.00000,14
+Optimization 2,scenario_14,-1.92392,95,5,100,95.00000,14
+Transformer,scenario_14,-1.71110,85,15,100,85.00000,14
+Automation,scenario_15,-32.15280,14,86,100,14.00000,15
+Optimization 1,scenario_15,-16.32340,91,9,100,91.00000,15
+Optimization 2,scenario_15,-3.06338,95,5,100,95.00000,15
+Transformer,scenario_15,-3.15520,88,12,100,88.00000,15
+Automation,scenario_16,-23.64680,11,89,100,11.00000,16
+Optimization 1,scenario_16,-16.31490,90,10,100,90.00000,16
+Optimization 2,scenario_16,-1.53341,94,6,100,94.00000,16
+Transformer,scenario_16,-1.84530,90,10,100,90.00000,16
+Automation,scenario_17,-17.77340,13,87,100,13.00000,17
+Optimization 1,scenario_17,-17.26570,89,11,100,89.00000,17
+Optimization 2,scenario_17,-2.74858,92,8,100,92.00000,17
+Transformer,scenario_17,-3.12920,84,16,100,84.00000,17
+Automation,scenario_18,-18.32510,10,90,100,10.00000,18
+Optimization 1,scenario_18,-17.23950,86,14,100,86.00000,18
+Optimization 2,scenario_18,-0.55547,93,7,100,93.00000,18
+Transformer,scenario_18,-1.41740,86,14,100,86.00000,18
+Automation,scenario_19,-18.06110,13,87,100,13.00000,19
+Optimization 1,scenario_19,-17.08760,89,11,100,89.00000,19
+Optimization 2,scenario_19,-3.80889,91,9,100,91.00000,19
+Transformer,scenario_19,-3.16130,89,11,100,89.00000,19
+Automation,scenario_20,-18.23160,11,89,100,11.00000,20
+Optimization 1,scenario_20,-17.05450,90,10,100,90.00000,20
+Optimization 2,scenario_20,-3.23231,93,7,100,93.00000,20
+Transformer,scenario_20,-4.08150,88,12,100,88.00000,20
+Automation,scenario_21,-15.99220,12,88,100,12.00000,21
+Optimization 1,scenario_21,-0.35300,93,7,100,93.00000,21
+Optimization 2,scenario_21,-0.35300,93,7,100,93.00000,21
+Transformer,scenario_21,-0.64630,83,17,100,83.00000,21
+Automation,scenario_22,-15.89500,12,88,100,12.00000,22
+Optimization 1,scenario_22,-0.37330,92,8,100,92.00000,22
+Optimization 2,scenario_22,-0.37330,92,8,100,92.00000,22
+Transformer,scenario_22,-0.56180,82,18,100,82.00000,22
+Automation,scenario_23,-15.69030,10,90,100,10.00000,23
+Optimization 1,scenario_23,-1.59470,80,20,100,80.00000,23
+Optimization 2,scenario_23,-1.59470,80,20,100,80.00000,23
+Transformer,scenario_23,-1.91820,67,33,100,67.00000,23
+Automation,scenario_24,-15.58950,15,85,100,15.00000,24
+Optimization 1,scenario_24,-0.30390,93,7,100,93.00000,24
+Optimization 2,scenario_24,-0.30390,93,7,100,93.00000,24
+Transformer,scenario_24,-0.62970,81,19,100,81.00000,24
+Automation,scenario_25,-15.69640,12,88,100,12.00000,25
+Optimization 1,scenario_25,-0.11710,95,5,100,95.00000,25
+Optimization 2,scenario_25,-0.11710,95,5,100,95.00000,25
+Transformer,scenario_25,-0.70400,79,21,100,79.00000,25
+Automation,scenario_26,-15.80850,7,93,100,7.00000,26
+Optimization 1,scenario_26,-0.71190,83,17,100,83.00000,26
+Optimization 2,scenario_26,-0.71190,83,17,100,83.00000,26
+Transformer,scenario_26,-0.87500,81,19,100,81.00000,26
+Automation,scenario_27,-15.87690,13,87,100,13.00000,27
+Optimization 1,scenario_27,-1.03180,84,16,100,84.00000,27
+Optimization 2,scenario_27,-1.03180,84,16,100,84.00000,27
+Transformer,scenario_27,-1.20210,71,29,100,71.00000,27
+Automation,scenario_28,-15.84320,12,88,100,12.00000,28
+Optimization 1,scenario_28,-0.55960,88,12,100,88.00000,28
+Optimization 2,scenario_28,-0.55960,88,12,100,88.00000,28
+Transformer,scenario_28,-0.60910,78,22,100,78.00000,28
+Automation,scenario_29,-15.72650,15,85,100,15.00000,29
+Optimization 1,scenario_29,-0.60610,87,13,100,87.00000,29
+Optimization 2,scenario_29,-0.60610,87,13,100,87.00000,29
+Transformer,scenario_29,-1.10550,81,19,100,81.00000,29
+Automation,scenario_30,-15.68820,9,91,100,9.00000,30
+Optimization 1,scenario_30,-0.32290,91,9,100,91.00000,30
+Optimization 2,scenario_30,-0.32290,91,9,100,91.00000,30
+Transformer,scenario_30,-0.57260,81,19,100,81.00000,30
+Automation,scenario_31,-15.86680,11,89,100,11.00000,31
+Optimization 1,scenario_31,-0.56410,88,12,100,88.00000,31
+Optimization 2,scenario_31,-0.56410,88,12,100,88.00000,31
+Transformer,scenario_31,-0.98390,81,19,100,81.00000,31
+Automation,scenario_32,-15.80460,11,89,100,11.00000,32
+Optimization 1,scenario_32,-0.58600,86,14,100,86.00000,32
+Optimization 2,scenario_32,-0.58600,86,14,100,86.00000,32
+Transformer,scenario_32,-0.73010,81,19,100,81.00000,32
+Automation,scenario_33,-15.54100,12,88,100,12.00000,33
+Optimization 1,scenario_33,-0.80790,86,14,100,86.00000,33
+Optimization 2,scenario_33,-0.80790,86,14,100,86.00000,33
+Transformer,scenario_33,-1.10730,77,23,100,77.00000,33
+Automation,scenario_34,-15.66800,11,89,100,11.00000,34
+Optimization 1,scenario_34,-0.20690,97,3,100,97.00000,34
+Optimization 2,scenario_34,-0.20690,97,3,100,97.00000,34
+Transformer,scenario_34,-0.56190,81,19,100,81.00000,34
+Automation,scenario_35,-15.56720,11,89,100,11.00000,35
+Optimization 1,scenario_35,-0.23850,93,7,100,93.00000,35
+Optimization 2,scenario_35,-0.23850,93,7,100,93.00000,35
+Transformer,scenario_35,-0.79500,79,21,100,79.00000,35
+Automation,scenario_36,-15.69510,10,90,100,10.00000,36
+Optimization 1,scenario_36,-0.49580,92,8,100,92.00000,36
+Optimization 2,scenario_36,-0.49580,92,8,100,92.00000,36
+Transformer,scenario_36,-0.62950,82,18,100,82.00000,36
+Automation,scenario_37,-19.96420,10,90,100,10.00000,37
+Optimization 1,scenario_37,-19.23580,87,13,100,87.00000,37
+Optimization 2,scenario_37,-4.80897,90,10,100,90.00000,37
+Transformer,scenario_37,-7.28920,81,19,100,81.00000,37
+Automation,scenario_38,-19.49040,8,92,100,8.00000,38
+Optimization 1,scenario_38,-17.37400,89,11,100,89.00000,38
+Optimization 2,scenario_38,-3.62993,92,8,100,92.00000,38
+Transformer,scenario_38,-4.32750,88,12,100,88.00000,38
+Automation,scenario_39,-17.96690,13,87,100,13.00000,39
+Optimization 1,scenario_39,-17.65960,86,14,100,86.00000,39
+Optimization 2,scenario_39,-3.39795,89,11,100,89.00000,39
+Transformer,scenario_39,-4.14740,83,17,100,83.00000,39
+Automation,scenario_40,-17.84000,13,87,100,13.00000,40
+Optimization 1,scenario_40,-18.04090,91,9,100,91.00000,40
+Optimization 2,scenario_40,-3.66817,95,5,100,95.00000,40
+Transformer,scenario_40,-3.71270,82,18,100,82.00000,40
+Automation,scenario_41,-18.76370,14,86,100,14.00000,41
+Optimization 1,scenario_41,-16.58300,90,10,100,90.00000,41
+Optimization 2,scenario_41,-2.14822,96,4,100,96.00000,41
+Transformer,scenario_41,-3.23640,88,12,100,88.00000,41
+Automation,scenario_42,-17.73120,16,84,100,16.00000,42
+Optimization 1,scenario_42,-16.84180,90,10,100,90.00000,42
+Optimization 2,scenario_42,-2.46981,95,5,100,95.00000,42
+Transformer,scenario_42,-2.12140,93,7,100,93.00000,42
+Automation,scenario_43,-17.52180,13,87,100,13.00000,43
+Optimization 1,scenario_43,-19.47960,88,12,100,88.00000,43
+Optimization 2,scenario_43,-4.03445,92,8,100,92.00000,43
+Transformer,scenario_43,-3.28760,82,18,100,82.00000,43
+Automation,scenario_44,-17.64270,10,90,100,10.00000,44
+Optimization 1,scenario_44,-17.39910,87,13,100,87.00000,44
+Optimization 2,scenario_44,-3.17272,91,9,100,91.00000,44
+Transformer,scenario_44,-2.96710,85,15,100,85.00000,44
+Automation,scenario_45,-22.85680,13,87,100,13.00000,45
+Optimization 1,scenario_45,-16.34510,90,10,100,90.00000,45
+Optimization 2,scenario_45,-2.32277,93,7,100,93.00000,45
+Transformer,scenario_45,-2.71870,87,13,100,87.00000,45
+Automation,scenario_46,-21.05070,12,88,100,12.00000,46
+Optimization 1,scenario_46,-16.46150,88,12,100,88.00000,46
+Optimization 2,scenario_46,-2.51059,91,9,100,91.00000,46
+Transformer,scenario_46,-0.83170,88,12,100,88.00000,46
+Automation,scenario_47,-20.79480,12,88,100,12.00000,47
+Optimization 1,scenario_47,-16.70570,90,10,100,90.00000,47
+Optimization 2,scenario_47,-3.22880,93,7,100,93.00000,47
+Transformer,scenario_47,-3.68430,89,11,100,89.00000,47
+Automation,scenario_48,-19.98030,10,90,100,10.00000,48
+Optimization 1,scenario_48,-16.51670,90,10,100,90.00000,48
+Optimization 2,scenario_48,-2.04715,95,5,100,95.00000,48
+Transformer,scenario_48,-2.89510,89,11,100,89.00000,48
+Automation,scenario_49,-17.75640,11,89,100,11.00000,49
+Optimization 1,scenario_49,-17.80960,90,10,100,90.00000,49
+Optimization 2,scenario_49,-4.75567,92,8,100,92.00000,49
+Transformer,scenario_49,-5.45210,81,19,100,81.00000,49
+Automation,scenario_50,-17.78560,9,91,100,9.00000,50
+Optimization 1,scenario_50,-17.37920,91,9,100,91.00000,50
+Optimization 2,scenario_50,-4.06453,94,6,100,94.00000,50
+Transformer,scenario_50,-3.60040,85,15,100,85.00000,50
+Automation,scenario_51,-17.58270,14,86,100,14.00000,51
+Optimization 1,scenario_51,-17.33600,90,10,100,90.00000,51
+Optimization 2,scenario_51,-3.18101,94,6,100,94.00000,51
+Transformer,scenario_51,-4.39900,85,15,100,85.00000,51
+Automation,scenario_52,-17.64680,13,87,100,13.00000,52
+Optimization 1,scenario_52,-17.66980,91,9,100,91.00000,52
+Optimization 2,scenario_52,-2.21905,95,5,100,95.00000,52
+Transformer,scenario_52,-2.31860,88,12,100,88.00000,52
+Automation,scenario_53,-15.50840,9,91,100,9.00000,53
+Optimization 1,scenario_53,-0.53900,89,11,100,89.00000,53
+Optimization 2,scenario_53,-0.53900,89,11,100,89.00000,53
+Transformer,scenario_53,-0.51440,84,16,100,84.00000,53
+Automation,scenario_54,-15.37470,13,87,100,13.00000,54
+Optimization 1,scenario_54,-0.13860,97,3,100,97.00000,54
+Optimization 2,scenario_54,-0.13860,97,3,100,97.00000,54
+Transformer,scenario_54,-0.20280,86,14,100,86.00000,54
+Automation,scenario_55,-15.09130,15,85,100,15.00000,55
+Optimization 1,scenario_55,-0.49530,92,8,100,92.00000,55
+Optimization 2,scenario_55,-0.49530,92,8,100,92.00000,55
+Transformer,scenario_55,-0.82590,82,18,100,82.00000,55
+Automation,scenario_56,-14.98690,12,88,100,12.00000,56
+Optimization 1,scenario_56,-0.35770,94,6,100,94.00000,56
+Optimization 2,scenario_56,-0.35770,94,6,100,94.00000,56
+Transformer,scenario_56,-0.49060,83,17,100,83.00000,56
+Automation,scenario_57,-15.26310,12,88,100,12.00000,57
+Optimization 1,scenario_57,-0.68320,91,9,100,91.00000,57
+Optimization 2,scenario_57,-0.68320,91,9,100,91.00000,57
+Transformer,scenario_57,-0.75570,77,23,100,77.00000,57
+Automation,scenario_58,-15.25930,12,88,100,12.00000,58
+Optimization 1,scenario_58,-0.35940,91,9,100,91.00000,58
+Optimization 2,scenario_58,-0.35940,91,9,100,91.00000,58
+Transformer,scenario_58,-0.38300,86,14,100,86.00000,58
+Automation,scenario_59,-15.16190,12,88,100,12.00000,59
+Optimization 1,scenario_59,-1.10130,85,15,100,85.00000,59
+Optimization 2,scenario_59,-1.10130,85,15,100,85.00000,59
+Transformer,scenario_59,-1.10020,83,17,100,83.00000,59
+Automation,scenario_60,-15.05770,12,88,100,12.00000,60
+Optimization 1,scenario_60,-0.24280,94,6,100,94.00000,60
+Optimization 2,scenario_60,-0.24280,94,6,100,94.00000,60
+Transformer,scenario_60,-0.59700,86,14,100,86.00000,60
+Automation,scenario_61,-15.42560,11,89,100,11.00000,61
+Optimization 1,scenario_61,-0.59150,86,14,100,86.00000,61
+Optimization 2,scenario_61,-0.59150,86,14,100,86.00000,61
+Transformer,scenario_61,-0.95000,84,16,100,84.00000,61
+Automation,scenario_62,-15.33090,14,86,100,14.00000,62
+Optimization 1,scenario_62,-0.40880,91,9,100,91.00000,62
+Optimization 2,scenario_62,-0.40880,91,9,100,91.00000,62
+Transformer,scenario_62,-0.43590,86,14,100,86.00000,62
+Automation,scenario_63,-15.47620,15,85,100,15.00000,63
+Optimization 1,scenario_63,-0.89540,82,18,100,82.00000,63
+Optimization 2,scenario_63,-0.89540,82,18,100,82.00000,63
+Transformer,scenario_63,-0.77330,85,15,100,85.00000,63
+Automation,scenario_64,-15.36340,11,89,100,11.00000,64
+Optimization 1,scenario_64,-1.80930,79,21,100,79.00000,64
+Optimization 2,scenario_64,-1.80930,79,21,100,79.00000,64
+Transformer,scenario_64,-1.38430,77,23,100,77.00000,64
+Automation,scenario_65,-14.81510,15,85,100,15.00000,65
+Optimization 1,scenario_65,-0.84160,87,13,100,87.00000,65
+Optimization 2,scenario_65,-0.84160,87,13,100,87.00000,65
+Transformer,scenario_65,-1.74970,72,28,100,72.00000,65
+Automation,scenario_66,-14.94480,14,86,100,14.00000,66
+Optimization 1,scenario_66,-0.23300,95,5,100,95.00000,66
+Optimization 2,scenario_66,-0.23300,95,5,100,95.00000,66
+Transformer,scenario_66,-0.47260,86,14,100,86.00000,66
+Automation,scenario_67,-14.89800,14,86,100,14.00000,67
+Optimization 1,scenario_67,-0.22470,96,4,100,96.00000,67
+Optimization 2,scenario_67,-0.22470,96,4,100,96.00000,67
+Transformer,scenario_67,-0.38860,84,16,100,84.00000,67
+Automation,scenario_68,-15.04290,16,84,100,16.00000,68
+Optimization 1,scenario_68,-0.73450,89,11,100,89.00000,68
+Optimization 2,scenario_68,-0.73450,89,11,100,89.00000,68
+Transformer,scenario_68,-0.72150,83,17,100,83.00000,68

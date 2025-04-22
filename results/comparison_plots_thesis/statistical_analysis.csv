@@ -1,0 +1,9 @@
+Método,Métrica,Media,Mediana,Desviación Estándar,Mínimo,Máximo,Percentil 25,Percentil 75
+Automation,TMT,-17.8755,-16.7570,4.4659,-45.6815,-14.8151,-18.3563,-15.5329
+Automation,Porcentaje Coordinación,12.2500,12.0000,1.8477,7.0000,16.0000,11.0000,13.2500
+Optimization 1,TMT,-8.8598,-8.8004,8.3645,-19.4796,-0.1171,-17.0877,-0.5336
+Optimization 1,Porcentaje Coordinación,89.5441,90.0000,3.4746,79.0000,97.0000,87.7500,91.0000
+Optimization 2,TMT,-1.6693,-1.0666,1.3677,-4.8441,-0.1171,-2.7495,-0.5121
+Optimization 2,Porcentaje Coordinación,91.5882,92.5000,4.1975,79.0000,97.0000,89.0000,95.0000
+Transformer,TMT,-1.8869,-1.2932,1.4744,-7.2892,-0.2028,-2.9561,-0.7171
+Transformer,Porcentaje Coordinación,84.2206,84.5000,5.1741,67.0000,96.0000,81.0000,88.0000
